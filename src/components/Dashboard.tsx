@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -102,7 +101,7 @@ const Dashboard = ({ user, onLogout }: DashboardProps) => {
               className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent cursor-pointer"
               onClick={() => setActiveTab('overview')}
             >
-              GenifyStudio
+              ClipGen
             </div>
             <nav className="hidden md:flex gap-6">
               <button

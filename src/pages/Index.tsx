@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -37,7 +36,7 @@ const Index = () => {
       {/* Header */}
       <header className="container mx-auto px-6 py-8 flex justify-between items-center">
         <div className="text-2xl font-bold text-white">
-          Genify<span className="text-purple-400">Studio</span>
+          Clip<span className="text-purple-400">Gen</span>
         </div>
         <div className="flex gap-4">
           <Button 
@@ -136,7 +135,7 @@ const Index = () => {
             Ready to Transform Your Content?
           </h2>
           <p className="text-blue-100 mb-8 text-lg">
-            Join thousands of creators who are already using GenifyStudio to create amazing content.
+            Join thousands of creators who are already using ClipGen to create amazing content.
           </p>
           <Button 
             size="lg"
